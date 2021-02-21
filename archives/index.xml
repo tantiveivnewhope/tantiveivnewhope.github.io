@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Archives on Tantive IV LABO Blog</title>
+    <link>https://tantiveivnewhope.github.io/archives/</link>
+    <description>Recent content in Archives on Tantive IV LABO Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Thu, 18 Feb 2021 22:38:34 +0900</lastBuildDate><atom:link href="https://tantiveivnewhope.github.io/archives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021</title>
+      <link>https://tantiveivnewhope.github.io/archives/2021/</link>
+      <pubDate>Thu, 18 Feb 2021 22:38:34 +0900</pubDate>
+      
+      <guid>https://tantiveivnewhope.github.io/archives/2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2021-03</title>
+      <link>https://tantiveivnewhope.github.io/archives/2021-03/</link>
+      <pubDate>Thu, 18 Feb 2021 22:38:34 +0900</pubDate>
+      
+      <guid>https://tantiveivnewhope.github.io/archives/2021-03/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2021-02</title>
+      <link>https://tantiveivnewhope.github.io/archives/2021-02/</link>
+      <pubDate>Sun, 14 Feb 2021 14:08:18 +0900</pubDate>
+      
+      <guid>https://tantiveivnewhope.github.io/archives/2021-02/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

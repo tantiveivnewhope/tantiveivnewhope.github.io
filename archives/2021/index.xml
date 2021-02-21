@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2021 on Tantive IV LABO Blog</title>
+    <link>https://tantiveivnewhope.github.io/archives/2021/</link>
+    <description>Recent content in 2021 on Tantive IV LABO Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Thu, 18 Feb 2021 22:38:34 +0900</lastBuildDate><atom:link href="https://tantiveivnewhope.github.io/archives/2021/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>002</title>
+      <link>https://tantiveivnewhope.github.io/postas/002/</link>
+      <pubDate>Thu, 18 Feb 2021 22:38:34 +0900</pubDate>
+      
+      <guid>https://tantiveivnewhope.github.io/postas/002/</guid>
+      <description>てすと テスト テスト</description>
+    </item>
+    
+    <item>
+      <title>001</title>
+      <link>https://tantiveivnewhope.github.io/postas/001/</link>
+      <pubDate>Sun, 14 Feb 2021 14:08:18 +0900</pubDate>
+      
+      <guid>https://tantiveivnewhope.github.io/postas/001/</guid>
+      <description>てすと テスト テスト</description>
+    </item>
+    
+  </channel>
+</rss>

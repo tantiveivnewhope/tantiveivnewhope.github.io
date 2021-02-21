@@ -1,0 +1,17 @@
+.about--wrap {
+  text-align: center;
+}
+
+.about--name-box {
+  display: flex;
+  margin-bottom: 3vw;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: left;
+}
+
+.about--name {
+  font-size: xx-large;
+  font-weight: 900;
+}
