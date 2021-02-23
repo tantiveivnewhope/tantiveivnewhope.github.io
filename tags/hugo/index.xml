@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hugo on Tantive IV LABO Blog</title>
+    <link>https://tantiveivnewhope.github.io/tags/hugo/</link>
+    <description>Recent content in hugo on Tantive IV LABO Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Mon, 22 Feb 2021 21:11:54 +0900</lastBuildDate><atom:link href="https://tantiveivnewhope.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>githubとhugoでのブログ開設を解説してみる</title>
+      <link>https://tantiveivnewhope.github.io/postas/20210223/</link>
+      <pubDate>Mon, 22 Feb 2021 21:11:54 +0900</pubDate>
+      
+      <guid>https://tantiveivnewhope.github.io/postas/20210223/</guid>
+      <description>github+hugoでブログを作る そもそもなぜgithug+hugoなのか ブログを開設するだけなら、他のブログサービスを使えば良いわけです</description>
+    </item>
+    
+  </channel>
+</rss>
