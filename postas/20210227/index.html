@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="ja-jp"><head>
+
+<title>Tantive IV LABO Blog | Github&#43;hugoでのブログ始め方の概要を解説してみる</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+    <meta name="description" content="Tantive IV LABO Blog">
+    
+    <meta name="description" content="">
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest" />
+    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5" />
+    <link rel="shortcut icon" href="/favicon/favicon.ico" />
+    <meta name="theme-color" content="#ffffff">
+    <meta property="og:title" content="Tantive IV LABO Blog | Github&#43;hugoでのブログ始め方の概要を解説してみる" />
+    
+    
+        
+        <link rel="stylesheet" href="https://tantiveivnewhope.github.io/css/styles.min.9ddf3b50515600dffa65808a6a409f842b16c12a168dde33b271de80e8b2814e.css" integrity="sha256-nd87UFFWAN/6ZYCKakCfhCsWwSoWjd4zsnHegOiygU4=">
+    
+    <link id="dark-mode-theme" rel="stylesheet" href="/css/darker.min.css" async disabled>
+    <link href="/css/blonde.min.css" rel="stylesheet" type="text/css" media="print"
+        onload="this.media='all'">
+    
+    <link href="/css/content.css" rel="stylesheet" type="text/css">
+    
+    <link href="/css/content/20210227.css" rel="stylesheet" type="text/css">
+    
+    
+
+
+
+<meta name="description" content="Github&#43;hugoでのブログ始め方概要 ブログを開設するに当たってハマったことや苦労したことなどを綴っていこうと思いますが、まずその前にそ">
+<meta property="og:site_name" content="Tantive IV LABO Blog">
+<meta property="og:description" content="Github&#43;hugoでのブログ始め方概要 ブログを開設するに当たってハマったことや苦労したことなどを綴っていこうと思いますが、まずその前にそ">
+<meta property="og:url" content="https://tantiveivnewhope.github.io/postas/20210227/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="">
+
+<link rel="canonical" href="https://tantiveivnewhope.github.io/postas/20210227/">
+
+<meta name="twitter:description" content="Github&#43;hugoでのブログ始め方概要 ブログを開設するに当たってハマったことや苦労したことなどを綴っていこうと思いますが、まずその前にそ">
+<meta property="article:published_time" content="2021-02-27T10:32:34&#43;09:00">
+<meta property="article:updated_time" content="2021-02-27T10:32:34&#43;09:00">
+
+
+
+
+
+    
+<meta property="og:image" content="https://tantiveivnewhope.github.io/img/20210227/20210227_01.jpg">
+<meta property="og:image:url" content="https://tantiveivnewhope.github.io/img/20210227/20210227_01.jpg">
+    
+
+    
+</head>
+<body class="font-sans">
+    <div class="min-h-screen flex flex-col bg-gray-100"><div class="bg-gray-800">
+    <div class="container mr-auto ml-auto">
+        <nav class="flex items-center justify-between flex-wrap bg-gray-800 p-6">
+            <div class="flex items-center flex-no-shrink bg-gray-800 text-white mr-6">
+                <a href="https://tantiveivnewhope.github.io"><span
+                        class="font-semibold text-2xl tracking-tight">Tantive IV LABO Blog</span></a>
+            </div>
+            <div class="flex md:hidden">
+                <div class="py-2">
+                    <a id="dark-mode-toggle-1" href="javascript:void(0);" class="no-underline text-white mr-1"><span
+                            id="dark-mode-toggle-icon1"
+                            class="icon-moon inline-flex align-middle leading-normal text-lg mr-1" aria-label="Darkmode Toggle Button"></span></a>
+                    <span class="text-gray-300">|</span>
+                </div>
+                <button id="hamburgerbtn"
+                    class="flex items-center px-3 py-1 text-gray-300 hover:text-white">
+                    <span class="icon-menu text-2xl" aria-label="Hamburger Button"></span>
+                </button>
+            </div>
+            <div class="hidden w-full md:flex md:flex-row sm:items-center md:w-auto" id="mobileMenu">
+                <div class="text-sm lg:flex-grow">
+                </div>
+                <div class="navmenu">
+                    
+                    <a href="/"
+                        class="no-underline block mt-4 sm:inline-block sm:mt-0 text-gray-400 hover:text-white mr-4">
+                        Home
+                    </a>
+                    
+                    <a href="/about/"
+                        class="no-underline block mt-4 sm:inline-block sm:mt-0 text-gray-400 hover:text-white mr-4">
+                        About
+                    </a>
+                    
+                    <a href="/contact/"
+                        class="no-underline block mt-4 sm:inline-block sm:mt-0 text-gray-400 hover:text-white mr-4">
+                        Contact
+                    </a>
+                    
+                </div>
+                <div class="text-gray-400 invisible md:visible">
+                    <span>|</span>
+                    <a id="dark-mode-toggle-2" href="javascript:void(0);" class="no-underline hover:text-white"><span
+                            id="dark-mode-toggle-icon2"
+                            class="icon-moon inline-flex align-middle leading-normal text-lg ml-2"></span></a>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+<style>
+    .active {
+        display: block;
+    }
+</style>
+<script>
+    let hamburger = document.getElementById('hamburgerbtn');
+
+    let mobileMenu = document.getElementById('mobileMenu');
+
+    hamburger.addEventListener('click', function () {
+        mobileMenu.classList.toggle('active');
+    });
+</script>
+<div class="container mx-auto mt-4 flex-grow" id="content">
+            <div class="lg:mx-5">
+<div class="grid grid-cols-3 gap-4">
+    <div class="bg-white col-span-3 lg:col-span-2 p-5">
+        <h1 class="title text-4xl">Github&#43;hugoでのブログ始め方の概要を解説してみる</h1>
+        <div class="tags-box">
+            
+            
+            <a href="/tags/hugo">
+
+                <span class="duration-100 inline-flex py-2 leading-4 mr-2 mb-2 content-center bg-gray-100 justify-center h-8 px-3 text-blue-500 hover:text-blue-900">hugo</span>
+            </a>
+            
+            <a href="/tags/github">
+
+                <span class="duration-100 inline-flex py-2 leading-4 mr-2 mb-2 content-center bg-gray-100 justify-center h-8 px-3 text-blue-500 hover:text-blue-900">Github</span>
+            </a>
+            
+            <a href="/tags/blog">
+
+                <span class="duration-100 inline-flex py-2 leading-4 mr-2 mb-2 content-center bg-gray-100 justify-center h-8 px-3 text-blue-500 hover:text-blue-900">blog</span>
+            </a>
+            
+            
+        </div>
+        <div class="title-border"></div>
+        <div class="content py-1"><img src="/img/20210227/20210227_01.jpg" class="post-top-img">
+<h2>Github+hugoでのブログ始め方概要</h2>
+<br>
+<div class="post-body">
+  <p>ブログを開設するに当たってハマったことや苦労したことなどを綴っていこうと思いますが、まずその前にそもそもブログ開設のやり方をざっくり解説していこうかと思います。
+  </p>
+  <br>
+</div>
+<h3>Github+hugoでのブログ開設の流れ</h3>
+<div class="post-body">
+  <br>
+  <p>ゼロから始めてGithub＋hugoでブログを公開するまでの大雑把な流れはこんな感じです。</p>
+  <ol class="ol-flow">
+    <li>PCにgitをインストール</li>
+    <li>PCにエディタをインストール</li>
+    <li>Githubのアカウントを取得</li>
+    <li>PCにhugoをインストール</li>
+    <li>hugoのテーマを選んでPCにインストール</li>
+    <li>ローカルリポジトリとリモートリポジトリを作成</li>
+    <li>リモートリポジトリをGithub Pagesに設定</li>
+    <li>エディタで記事を編集し、hugoを使ってローカルリポジトリで記事作成</li>
+    <li>作った記事をリモートリポジトリにpush</li>
+  </ol>
+  <p>正直、</P>
+    <ul class="ul-hardle">
+      <li>「gitって何？」</li>
+      <li>「HTMLやCSSやjavascriptなんて中身見たこともありません」</li>
+      <li>「コマンドラインとか触ったことないんですけど」</li>
+    </ul>
+  <P>
+  というような方にはハードルが高いと思います。<br>
+  まずは、gitやGithubの概要、HTML、CSS、javascriptなどフロントエンドの知識、などを勉強してから挑戦することをお勧めします。
+  </p>
+  <br>
+</div>
+<h3>なんでGithubでブログを発信できるの？</h3>
+<div class="post-body">
+<br>
+  <p>
+  少しGithubの知識をお持ちの場合、なんでGithubでブログ発信できるのか不思議に思うかもしれません。<br>
+  不思議に思わない方は今回の記事は何の役にも立ちません。<br>
+  別の記事に期待してください。
+  </p>
+  <p>
+  Githubは、ざっくり言うとソースコードやデータなどのファイル管理サービスで、バージョン管理であるとかファイルの公開といった機能があります。<br>
+  もっと大雑把に言うと、ファイルの保管庫ですね。
+  </p>
+  <p>
+  なのに、なぜGithubでブログ発信できるのかというと、Github Pagesという機能が存在するからです。
+  </p>
+  <br>
+</div>
+<h3>Github Pagesって？</h3>
+<div class="post-body">
+  <br>
+  <p>
+  通常のリモートリポジトリは、まあ言ってみればただのファイル保管庫です。
+  ところが、リモートリポジトリに対してGithub Pagesの設定をすることによって、GithubがあたかもWebサーバのようにふるまってくれるようになります。<br>
+  つまり、リモートリポジトリにHTML、CSS、Javascript、画像ファイル、といったリソースを登録することでいわゆるホームページ公開ができるようになるわけです。
+  </p>
+  <p>
+  ただし、Github Pagesで公開できるのは静的なコンテンツだけになります。
+  </p>
+  <br>
+</div>
+<h3>静的とか動的ってどゆこと？</h3>
+<div class="post-body">
+  <br>
+  <p>
+  通常のブログを想像してみて下さい。<br>
+  一般的にはトップページには記事チラ見せ一覧、タグ一覧、月別のアーカイブ、なんかがありますよね。<br>
+  これは普通、そういったトップページが最初から作って用意されているわけではありません。<br>
+  記事のデータがどこかのデータベースにあって、閲覧者がアクセスしてきた時に、初めて記事データをサーバ側のプログラムが分析してカリカリっとその場でトップページとして仕立て上げてブラウザに返しているという仕組みです。<br>
+  この仕組み(カリカリっと仕立てる)でできたページを動的コンテンツと呼びます。
+  </p>
+  <p>
+  一方、静的コンテンツとは、サーバのプログラムがその場で仕立て上げるのではなく、最初からサーバにHTML、CSS、Javascripといったファイルとして存在しているページになります。
+  </p>
+  <p>
+  つまり、静的コンテンツの場合は、いつ、誰が見ようが必ず同じページ内容が閲覧されることになり、動的コンテンツの場合は見るタイミングなどによってページ内容が異なることになります。<br>
+  ※静的コンテンツであっても、javascriptで内容や見た目を変えることはできます。
+  </p>
+  <p>
+  イメージ的には、こんな感じです。
+  </p>
+  <br>
+  <img src="/img/20210227/20210227_02.png">
+  <br>
+</div>
+<h3>静的サイトジェネレータ</h3>
+<div class="post-body">
+  <br>
+  <P>
+  ブログって普通、記事を追加、変更、削除したりするとトップページが自動で変わるんでしょ？<br>
+  いつ見ても同じページ出すんだったら、ブログにならないじゃん？
+  </P>
+  <P>
+  はい、その通り。<br>
+  そこで登場するのがhugo、jekyllなどの静的サイトジェネレータです。
+  </P>
+  <P>
+  静的サイトジェネレータとは、WEBサイト用のHTMLやCSSといったファイルを作り出してくれるツールになります。<br>
+  記事を追加、変更、削除などした際に、トップページやタグ一覧ページや月別アーカイブページなどをHTMLの形で作ってくれます。<br>
+  どうせ動的にコンテンツが変わると言っても、記事が変わらない限りトップページや一覧ページを変更する必要ないじゃん。<br>
+  だったら、記事作った時にトップページ含めて全部作っちゃえば良いんじゃね？<br>
+  という発想です。
+  </P>
+  <P>つまり、上の図で言うところの「データ取ってくる」と「カリカリ作る」の部分をあらかじめPCで静的サイトジェネレータを使って作っておき、できたコンテンツファイルをサーバにドカっと上げる、という作戦です。</P>
+  <br>
+</div>
+<h3>で、なんでGithub？</h3>
+<div class="post-body">
+  <br>
+  <P>
+  ここまでで気付いた人も多いかもしれません。<br>
+  別に静的コンテンツを公開するんだったら、Githubである必要あるの？<br>
+  いえ、Githubである必要は全くありません。<br>
+  既にサーバや、他のホームページ公開サービスを借りている人はわざわざGithubを新たにサーバとして選択する必要はありません。<br>
+  広告を気にしなければ、無料のレンタルサーバもいくつかあります。<br>
+  むしろ、既にサーバを借りているのであれば、WordPressなりを入れて動的作戦にした方が早いし楽だと思います。<br>
+  </P>
+  <P>
+  ではなぜGithubなのかについては、他の記事でも一部書きましたが、こんな感じですかね。
+  </P>
+  <ul>
+    <li>無料で無制限かつ、勝手に広告つかない</li>
+    <li>自動的に履歴管理などができる</li>
+    <li>Github使ってるぞPR</li>
+    <li>お勉強兼ねて</li>
+  </ul>
+  <P>
+  こんなとこでしょうか。<br>
+  他に思い付かない・・・
+  </P>
+  <br>
+</div>
+<h3>静的サイトのデメリット</h3>
+<div class="post-body">
+  <br>
+  <P>
+  静的サイトにするデメリットは、逆説的に動的サイトでしかできないことになると思います。<br>
+  こんな感じ？
+  </P>
+  <ul>
+    <li>そもそも静的サイトジェネレータ使って作るのが面倒くさい</li>
+    <li>ページ数が恐ろしく増えると、ビルドに時間がかかる</li>
+    <li>コメント機能や問い合わせ機能、アクセス解析、いいね機能などは、基本的に外部サービスをHTMLに自力で組み込むしかない</li>
+  </ul>
+  <P>
+  基本的には限りなく面倒くさいのをメリットと捉えられるかどうかによると思います。<br>
+  面倒くさいのが楽しいと思える方は挑戦してみてはいかがでしょうか。
+  </P>
+  <P>
+  ということで今回はここまでにして、次回以降で具体的な手順について、特にハマったところを中心に解説していきたいと思います。
+  </P>
+  <p class="post-may-the-force-be-with-you">May the Force be with you...</p>
+</div></div>
+    </div>
+    <div class="hidden lg:block lg:col-span-1">
+        <div class="bg-white panel mb-3">
+            <p class="text-xl text-center text-gray-700 py-3 pl-3">Archives</p>
+            
+            
+            <a class="text-center block py-2 px-4 text-gray-800"
+                href="https://tantiveivnewhope.github.io/archives/2021">2021 (3)</a>
+            
+            <a class="text-center block py-2 px-4 text-gray-800"
+                href="https://tantiveivnewhope.github.io/archives/2021-02">2021-02 (3)</a>
+            
+            
+        </div>
+
+        
+        
+        <div class="bg-white panel mb-3">
+            <p class="text-xl text-center text-gray-700 py-3 pl-3">Tags</p>
+            <div class="panel-block p-2">
+                <a href="/tags/blog">
+                    <span
+                        class="duration-100 inline-flex py-2 leading-4 mr-2 mb-2 content-center bg-gray-100 justify-center h-8 px-3 text-blue-500 hover:text-blue-900">
+                        blog
+                    </span></a>
+                <a href="/tags/github">
+                    <span
+                        class="duration-100 inline-flex py-2 leading-4 mr-2 mb-2 content-center bg-gray-100 justify-center h-8 px-3 text-blue-500 hover:text-blue-900">
+                        github
+                    </span></a>
+                <a href="/tags/hugo">
+                    <span
+                        class="duration-100 inline-flex py-2 leading-4 mr-2 mb-2 content-center bg-gray-100 justify-center h-8 px-3 text-blue-500 hover:text-blue-900">
+                        hugo
+                    </span></a>
+                <a href="/tags/%E9%9B%91%E8%A8%98">
+                    <span
+                        class="duration-100 inline-flex py-2 leading-4 mr-2 mb-2 content-center bg-gray-100 justify-center h-8 px-3 text-blue-500 hover:text-blue-900">
+                        雑記
+                    </span></a>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+            </div>
+        </div><footer class="bg-gray-800 text-white p-6">
+    
+    <div class="container mr-auto ml-auto">
+        <p>&copy; 2021 <a href="https://tantiveivnewhope.github.io" class="hover:text-gray-500">Tantive IV LABO Blog</a></p>
+        <p>Powered by <a href="https://gohugo.io/" class="hover:text-gray-500">Hugo</a>, Theme <a
+                href="https://github.com/opera7133/Blonde" class="hover:text-gray-500">Blonde</a>.</p>
+    </div>
+    <script src="/js/switch.js"></script>
+</footer>
+</div>
+</body>
+
+</html>
