@@ -6,14 +6,23 @@
     <description>Recent content in 2021-02 on Tantive IV LABO Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Mon, 22 Feb 2021 21:11:54 +0900</lastBuildDate><atom:link href="https://tantiveivnewhope.github.io/archives/2021-02/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Feb 2021 10:32:34 +0900</lastBuildDate><atom:link href="https://tantiveivnewhope.github.io/archives/2021-02/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>githubとhugoでのブログ開設を解説してみる</title>
+      <title>Github&#43;hugoでのブログ始め方の概要を解説してみる</title>
+      <link>https://tantiveivnewhope.github.io/postas/20210227/</link>
+      <pubDate>Sat, 27 Feb 2021 10:32:34 +0900</pubDate>
+      
+      <guid>https://tantiveivnewhope.github.io/postas/20210227/</guid>
+      <description>Github+hugoでのブログ始め方概要 ブログを開設するに当たってハマったことや苦労したことなどを綴っていこうと思いますが、まずその前にそ</description>
+    </item>
+    
+    <item>
+      <title>Githubとhugoでのブログ開設を解説してみる</title>
       <link>https://tantiveivnewhope.github.io/postas/20210223/</link>
       <pubDate>Mon, 22 Feb 2021 21:11:54 +0900</pubDate>
       
       <guid>https://tantiveivnewhope.github.io/postas/20210223/</guid>
-      <description>github+hugoでブログを作る そもそもなぜgithug+hugoなのか ブログを開設するだけなら、他のブログサービスを使えば良いわけです</description>
+      <description>Github+hugoでブログを作る そもそもなぜgithug+hugoなのか ブログを開設するだけなら、他のブログサービスを使えば良いわけです</description>
     </item>
     
     <item>
