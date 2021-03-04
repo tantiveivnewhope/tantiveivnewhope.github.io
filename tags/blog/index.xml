@@ -6,7 +6,16 @@
     <description>Recent content in blog on Tantive IV LABO Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sat, 27 Feb 2021 10:32:34 +0900</lastBuildDate><atom:link href="https://tantiveivnewhope.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 03 Mar 2021 22:30:11 +0900</lastBuildDate><atom:link href="https://tantiveivnewhope.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Github&#43;hugoでブログ(1)Githubアカウント取得を解説してみる</title>
+      <link>https://tantiveivnewhope.github.io/postas/20210304/</link>
+      <pubDate>Wed, 03 Mar 2021 22:30:11 +0900</pubDate>
+      
+      <guid>https://tantiveivnewhope.github.io/postas/20210304/</guid>
+      <description>Githubアカウント取得方法 今回はGithubのアカウント取得方法を解説してみます。 前提条件 OS：Windows10 Home ブラウザ：Chrom</description>
+    </item>
+    
     <item>
       <title>Github&#43;hugoでのブログ始め方の概要を解説してみる</title>
       <link>https://tantiveivnewhope.github.io/postas/20210227/</link>
