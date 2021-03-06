@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="ja-jp"><head>
+
+<title>Tantive IV LABO Blog | Github&#43;hugoでブログ(2)gitインストールを解説してみる</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+    <meta name="description" content="Tantive IV LABO Blog">
+    
+    <meta name="description" content="">
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest" />
+    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5" />
+    <link rel="shortcut icon" href="/favicon/favicon.ico" />
+    <meta name="theme-color" content="#ffffff">
+    <meta property="og:title" content="Tantive IV LABO Blog | Github&#43;hugoでブログ(2)gitインストールを解説してみる" />
+    
+    
+        
+        <link rel="stylesheet" href="https://tantiveivnewhope.github.io/css/styles.min.9ddf3b50515600dffa65808a6a409f842b16c12a168dde33b271de80e8b2814e.css" integrity="sha256-nd87UFFWAN/6ZYCKakCfhCsWwSoWjd4zsnHegOiygU4=">
+    
+    <link id="dark-mode-theme" rel="stylesheet" href="/css/darker.min.css" async disabled>
+    <link href="/css/blonde.min.css" rel="stylesheet" type="text/css" media="print"
+        onload="this.media='all'">
+    
+    <link href="/font-awsome/css/all.css" rel="stylesheet" type="text/css">
+    
+    <link href="/css/content.css" rel="stylesheet" type="text/css">
+    
+    <link href="/css/content/20210306.css" rel="stylesheet" type="text/css">
+    
+    
+
+
+
+<meta name="description" content="Github&#43;hugoでブログ開設する流れ 別記事で解説したGithub&#43;hugoでブログ開設する流れはこんな感じ。 Githubのアカウントを">
+<meta property="og:site_name" content="Tantive IV LABO Blog">
+<meta property="og:description" content="Github&#43;hugoでブログ開設する流れ 別記事で解説したGithub&#43;hugoでブログ開設する流れはこんな感じ。 Githubのアカウントを">
+<meta property="og:url" content="https://tantiveivnewhope.github.io/postas/20210306/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="">
+
+<link rel="canonical" href="https://tantiveivnewhope.github.io/postas/20210306/">
+
+<meta name="twitter:description" content="Github&#43;hugoでブログ開設する流れ 別記事で解説したGithub&#43;hugoでブログ開設する流れはこんな感じ。 Githubのアカウントを">
+<meta property="article:published_time" content="2021-03-06T11:48:47&#43;09:00">
+<meta property="article:updated_time" content="2021-03-06T11:48:47&#43;09:00">
+
+
+
+
+
+    
+<meta property="og:image" content="https://tantiveivnewhope.github.io/img/20210306/20210306_01.jpg">
+<meta property="og:image:url" content="https://tantiveivnewhope.github.io/img/20210306/20210306_01.jpg">
+    
+
+    
+</head>
+<body class="font-sans">
+    <div class="min-h-screen flex flex-col bg-gray-100"><div class="bg-gray-800">
+    <div class="container mr-auto ml-auto">
+        <nav class="flex items-center justify-between flex-wrap bg-gray-800 p-6">
+            <div class="flex items-center flex-no-shrink bg-gray-800 text-white mr-6">
+                <a href="https://tantiveivnewhope.github.io"><span
+                        class="font-semibold text-2xl tracking-tight">Tantive IV LABO Blog</span></a>
+            </div>
+            <div class="flex md:hidden">
+                <div class="py-2">
+                    <a id="dark-mode-toggle-1" href="javascript:void(0);" class="no-underline text-white mr-1"><span
+                            id="dark-mode-toggle-icon1"
+                            class="icon-moon inline-flex align-middle leading-normal text-lg mr-1" aria-label="Darkmode Toggle Button"></span></a>
+                    <span class="text-gray-300">|</span>
+                </div>
+                <button id="hamburgerbtn"
+                    class="flex items-center px-3 py-1 text-gray-300 hover:text-white">
+                    <span class="icon-menu text-2xl" aria-label="Hamburger Button"></span>
+                </button>
+            </div>
+            <div class="hidden w-full md:flex md:flex-row sm:items-center md:w-auto" id="mobileMenu">
+                <div class="text-sm lg:flex-grow">
+                </div>
+                <div class="navmenu">
+                    
+                    <a href="/"
+                        class="no-underline block mt-4 sm:inline-block sm:mt-0 text-gray-400 hover:text-white mr-4">
+                        Home
+                    </a>
+                    
+                    <a href="/about/"
+                        class="no-underline block mt-4 sm:inline-block sm:mt-0 text-gray-400 hover:text-white mr-4">
+                        About
+                    </a>
+                    
+                    <a href="/contact/"
+                        class="no-underline block mt-4 sm:inline-block sm:mt-0 text-gray-400 hover:text-white mr-4">
+                        Contact
+                    </a>
+                    
+                </div>
+                <div class="text-gray-400 invisible md:visible">
+                    <span>|</span>
+                    <a id="dark-mode-toggle-2" href="javascript:void(0);" class="no-underline hover:text-white"><span
+                            id="dark-mode-toggle-icon2"
+                            class="icon-moon inline-flex align-middle leading-normal text-lg ml-2"></span></a>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+<style>
+    .active {
+        display: block;
+    }
+</style>
+<script>
+    let hamburger = document.getElementById('hamburgerbtn');
+
+    let mobileMenu = document.getElementById('mobileMenu');
+
+    hamburger.addEventListener('click', function () {
+        mobileMenu.classList.toggle('active');
+    });
+</script>
+<div class="container mx-auto mt-4 flex-grow" id="content">
+            <div class="lg:mx-5">
+<div class="grid grid-cols-3 gap-4">
+    <div class="bg-white col-span-3 lg:col-span-2 p-5">
+        <h1 class="title text-4xl">Github&#43;hugoでブログ(2)gitインストールを解説してみる</h1>
+        <div class="tags-box">
+            
+            
+            <a href="/tags/hugo">
+
+                <span class="duration-100 inline-flex py-2 leading-4 mr-2 mb-2 content-center bg-gray-100 justify-center h-8 px-3 text-blue-500 hover:text-blue-900">hugo</span>
+            </a>
+            
+            <a href="/tags/github">
+
+                <span class="duration-100 inline-flex py-2 leading-4 mr-2 mb-2 content-center bg-gray-100 justify-center h-8 px-3 text-blue-500 hover:text-blue-900">Github</span>
+            </a>
+            
+            <a href="/tags/blog">
+
+                <span class="duration-100 inline-flex py-2 leading-4 mr-2 mb-2 content-center bg-gray-100 justify-center h-8 px-3 text-blue-500 hover:text-blue-900">blog</span>
+            </a>
+            
+            
+        </div>
+        <div class="title-border"></div>
+        <div class="content py-1"><img src="/img/20210306/20210306_01.jpg" class="post-top-img">
+<div class="post-body">
+  <h2>Github+hugoでブログ開設する流れ</h2>
+  <p>別記事で解説したGithub+hugoでブログ開設する流れはこんな感じ。</p>
+  <ol class="ol-flow">
+    <li>Githubのアカウントを取得</li>
+    <li><span class="vertical-middle">PCにgitをインストール</span><i class="far fa-hand-point-left fa-here"></i><span class="vertical-middle">今回はここ</span></li>
+    <li>PCにエディタをインストール</li>
+    <li>PCにhugoをインストール</li>
+    <li>hugoのテーマを選んでPCにインストール</li>
+    <li>ローカルリポジトリとリモートリポジトリを作成</li>
+    <li>リモートリポジトリをGithub Pagesに設定</li>
+    <li>エディタで記事を編集し、hugoを使ってローカルリポジトリで記事作成</li>
+    <li>作った記事をリモートリポジトリにpush</li>
+  </ol>
+    <h2>Githubアカウント取得方法</h2>
+  <br>
+  <p>今回はgitのインストールを解説してみます。</p>
+  <br>
+  <h2>前提条件</h2>
+  <br>
+  <ul>
+    <li>OS：Windows10 Home</li>
+    <li>gitバージョン：2.30.1</li>
+  </ul>
+  <br>
+  <h2>手順</h2>
+  <br>
+  <ol>
+    <li>
+      <p class="font-bold">インストーラをダウンロード</p>
+      <a href="https://gitforwindows.org/">git for windows</a>の公式サイトからインストーラをダウンロードする。
+      <p>「ダウンロードボタン」をクリックするとダウンロードを開始します。<p>
+      <img src="/img/20210306/20210306_02.png" alt="ダウンロードページ" class="screen_shot">
+      <div class="modal-box">
+        <i class="fas fa-times modal-box__close"></i>
+        <img src="/img/20210306/20210306_02.png" alt="ダウンロードページ" class="screen_shot-modal">
+      </div>
+    </li>
+    <li>
+      <p class="font-bold">インストール実行</p>
+      <p>ダウンロードしたファイルをダブルクリックして実行します。</p>
+      <p>管理者権限が必要です。管理者でログインしていない場合は、右クリックしてメニューから「管理者として実行」を選択。</p>
+      <img src="/img/20210306/20210306_03.png" alt="インストール実行" class="screen_shot">
+      <div class="modal-box">
+        <i class="fas fa-times modal-box__close"></i>
+        <img src="/img/20210306/20210306_03.png" alt="インストール実行" class="screen_shot-modal">
+      </div>
+    </li>
+    <li>
+      <p class="font-bold">GNUライセンス同意</p>
+      <p>GNUライセンスに同意して、「Next]ボタンを選択。</p>
+      <img src="/img/20210306/20210306_04.png" alt="ライセンス同意"  class="screen_shot">
+      <div class="modal-box">
+        <i class="fas fa-times modal-box__close"></i>
+        <img src="/img/20210306/20210306_04.png" alt="ライセンス同意" class="screen_shot-modal">
+      </div>
+    </li>
+    <li>
+      <p class="font-bold">インストール先設定</p>
+      <p>インストール先を入力します。特に変更する必要なければそのままでOK。</p>
+      <img src="/img/20210306/20210306_05.png" alt="インストール先入力" class="screen_shot">
+      <div class="modal-box">
+        <i class="fas fa-times modal-box__close"></i>
+        <img src="/img/20210306/20210306_05.png" alt="インストール先入力" class="screen_shot-modal">
+      </div>
+      <p>すでにフォルダが存在する場合は、確認画面が表示されるので「はい」で続けます。</p>
+      <img src="/img/20210306/20210306_06.png" alt="フォルダ確認" class="screen_shot">
+      <div class="modal-box">
+        <i class="fas fa-times modal-box__close"></i>
+        <img src="/img/20210306/20210306_06.png" alt="フォルダ確認" class="screen_shot-modal">
+      </div>
+    </li>
+    <li>
+      <p class="font-bold">オプション選択</p>
+      <p>オプションを好みで選択します。特にこだわりなければそのままでOK。</p>
+      <img src="/img/20210306/20210306_07.png" alt="オプション選択" class="screen_shot">
+      <div class="modal-box">
+        <i class="fas fa-times modal-box__close"></i>
+        <img src="/img/20210306/20210306_07.png" alt="オプション選択" class="screen_shot-modal">
+      </div>
+    </li>
+    <li>
+      <p class="font-bold">スタートメニュー選択</p>
+      <p>スタートメニューに追加するかどうか。普通ならそのままでOK。追加したくなければ、「Don't create a Start Menu folder」にチェックを入れます。</p>
+      <img src="/img/20210306/20210306_08.png" alt="スタートメニュー選択" class="screen_shot">
+      <div class="modal-box">
+        <i class="fas fa-times modal-box__close"></i>
+        <img src="/img/20210306/20210306_08.png" alt="スタートメニュー選択" class="screen_shot-modal">
+      </div>
+    </li>
+    <li>
+      <p class="font-bold">デフォルトエディタの設定</p>
+      <p>メッセージ入力が必要となるコマンドを実行すると起動されるエディタ。よく分からなければそのままでOK。</p>
+      <img src="/img/20210306/20210306_09.png" alt="エディタ設定" class="screen_shot">
+      <div class="modal-box">
+        <i class="fas fa-times modal-box__close"></i>
+        <img src="/img/20210306/20210306_09.png" alt="エディタ設定" class="screen_shot-modal">
+      </div>
+    </li>
+    <li>
+      <p class="font-bold">リポジトリを作成した時のブランチ名称</p>
+      <p>リポジトリを作成した時のブランチ名を決めれますが、良く分からなければそのまま「Let Git decide」でOK。デフォルトでブランチ名が「master」になります。今のところmasterが主流で、何か分からないことがあった時にググったりしてもmasterで記載されていることが多いため、基本そのままでOK。</p>
+      <img src="/img/20210306/20210306_10.png" alt="デフォルトブランチ名称" class="screen_shot">
+      <div class="modal-box">
+        <i class="fas fa-times modal-box__close"></i>
+        <img src="/img/20210306/20210306_10.png" alt="デフォルトブランチ名称" class="screen_shot-modal">
+      </div>
+    </li>
+    <li>
+      <p class="font-bold">PATH環境変数設定</p>
+      <p>PATH環境変数に追加するフォルダを選択します。良く分からなければそのままでOK。</p>
+      <img src="/img/20210306/20210306_11.png" alt="PATH環境変数" class="screen_shot">
+      <div class="modal-box">
+        <i class="fas fa-times modal-box__close"></i>
+        <img src="/img/20210306/20210306_11.png" alt="PATH環境変数" class="screen_shot-modal">
+      </div>
+    </li>
+    <li>
+      <p class="font-bold">SSH接続環境の設定</p>
+      <p>SSH接続する時に使うプログラムを設定する。よくわからなければそのままでOK。</p>
+      <img src="/img/20210306/20210306_12.png" alt="SSH接続設定" class="screen_shot">
+      <div class="modal-box">
+        <i class="fas fa-times modal-box__close"></i>
+        <img src="/img/20210306/20210306_12.png" alt="SSH接続設定" class="screen_shot-modal">
+      </div>
+    </li>
+    <li>
+      <p class="font-bold">HTTPの設定</p>
+      <p>サーバ(Github)接続する時の設定。良く分からなければそのままでOK。</p>
+      <img src="/img/20210306/20210306_13.png" alt="HTTP接続設定" class="screen_shot">
+      <div class="modal-box">
+        <i class="fas fa-times modal-box__close"></i>
+        <img src="/img/20210306/20210306_13.png" alt="HTTP接続設定" class="screen_shot-modal">
+      </div>
+    </li>
+    <li>
+      <p class="font-bold">改行コードの自動変換設定</p>
+      <p>チェックアウトやコミットの時に、改行コードを自動で変換するかどうかの設定。複数人で作業するのではなく、一人しか使わないのであればそのままでOK。</p>
+      <img src="/img/20210306/20210306_14.png" alt="改行設定" class="screen_shot">
+      <div class="modal-box">
+        <i class="fas fa-times modal-box__close"></i>
+        <img src="/img/20210306/20210306_14.png" alt="改行設定" class="screen_shot-modal">
+      </div>
+    </li>
+    <li>
+      <p class="font-bold">ターミナルの設定</p>
+      <p>Git Bashで使うターミナルの設定。よくわからなければそのままでOK。</p>
+      <img src="/img/20210306/20210306_15.png" alt="ターミナル設定" class="screen_shot">
+      <div class="modal-box">
+        <i class="fas fa-times modal-box__close"></i>
+        <img src="/img/20210306/20210306_15.png" alt="ターミナル設定" class="screen_shot-modal">
+      </div>
+    </li>
+    <li>
+      <p class="font-bold">git pullの動作設定</p>
+      <p>git pullコマンド時のマージの動作を設定する。よく分からなければそのままでOK。</p>
+      <img src="/img/20210306/20210306_16.png" alt="git pullの動作設定" class="screen_shot">
+      <div class="modal-box">
+        <i class="fas fa-times modal-box__close"></i>
+        <img src="/img/20210306/20210306_16.png" alt="git pullの動作設定" class="screen_shot-modal">
+      </div>
+    </li>
+    <li>
+      <p class="font-bold">認証マネージャーの設定</p>
+      <p>インストールすると、リモートリポジトリに接続する際に毎回認証するのを省略できます。良くか分からなければそのままでOK。</p>
+      <img src="/img/20210306/20210306_17.png" alt="認証マネージャーの設定" class="screen_shot">
+      <div class="modal-box">
+        <i class="fas fa-times modal-box__close"></i>
+        <img src="/img/20210306/20210306_17.png" alt="認証マネージャーの設定" class="screen_shot-modal">
+      </div>
+    </li>
+    <li>
+      <p class="font-bold">オプションの設定</p>
+      <p>オプションの設定。よく分からなければそのままでOK。</p>
+      <img src="/img/20210306/20210306_18.png" alt="オプションの設定" class="screen_shot">
+      <div class="modal-box">
+        <i class="fas fa-times modal-box__close"></i>
+        <img src="/img/20210306/20210306_18.png" alt="オプションの設定" class="screen_shot-modal">
+      </div>
+    </li>
+    <li>
+      <p class="font-bold">試験運用オプションの設定</p>
+      <p>試験運用中のオプションの設定。何やらできるようになりますが、バグがあるのが分かっているらしいのでチェックなしのままでOK。</p>
+      <img src="/img/20210306/20210306_19.png" alt="試験運用中オプションの設定" class="screen_shot">
+      <div class="modal-box">
+        <i class="fas fa-times modal-box__close"></i>
+        <img src="/img/20210306/20210306_19.png" alt="試験運用中オプションの設定" class="screen_shot-modal">
+      </div>
+    </li>
+    <li>
+      <p class="font-bold">インストール開始</p>
+      <p>ようやく全部の設定が終わったので、「install」を押してインストール開始。</p>
+      <img src="/img/20210306/20210306_20.png" alt="インストール開始" class="screen_shot">
+      <div class="modal-box">
+        <i class="fas fa-times modal-box__close"></i>
+        <img src="/img/20210306/20210306_20.png" alt="インストール開始" class="screen_shot-modal">
+      </div>
+    </li>
+    <li>
+      <p class="font-bold">インストール終了</p>
+      <p>「Finish」を押してインストール終了。</p>
+      <p>
+        手順6で設定したスタートメニューに何やら新しいメニューが作られているので確認してみて下さい。<br>
+        エクスプローラーの何も表示されていないところで右クリックメニューを表示しても、新たなメニューが追加されているので、合わせて確認してみて下さい。
+      </p>
+      <img src="/img/20210306/20210306_21.png" alt="インストール終了" class="screen_shot">
+      <br>
+      <div class="modal-box">
+        <i class="fas fa-times modal-box__close"></i>
+        <img src="/img/20210306/20210306_21.png" alt="インストール終了" class="screen_shot-modal">
+      </div>
+    </li>
+  </ol>
+  <h2>終わりに</h2>
+  <br>
+  <p>無事インストールは完了しましたでしょうか。</p>
+  <p>次回は、エディタのインストールを解説してみようかと思います。</p>
+  <p class="post-may-the-force-be-with-you">May the Force be with you...</p>
+</div></div>
+    </div>
+    <div class="hidden lg:block lg:col-span-1">
+        <div class="bg-white panel mb-3">
+            <p class="text-xl text-center text-gray-700 py-3 pl-3">Archives</p>
+            
+            
+            <a class="text-center block py-2 px-4 text-gray-800"
+                href="https://tantiveivnewhope.github.io/archives/2021">2021 (5)</a>
+            
+            <a class="text-center block py-2 px-4 text-gray-800"
+                href="https://tantiveivnewhope.github.io/archives/2021-02">2021-02 (3)</a>
+            
+            <a class="text-center block py-2 px-4 text-gray-800"
+                href="https://tantiveivnewhope.github.io/archives/2021-03">2021-03 (2)</a>
+            
+            
+        </div>
+
+        
+        
+        <div class="bg-white panel mb-3">
+            <p class="text-xl text-center text-gray-700 py-3 pl-3">Tags</p>
+            <div class="panel-block p-2">
+                <a href="/tags/blog">
+                    <span
+                        class="duration-100 inline-flex py-2 leading-4 mr-2 mb-2 content-center bg-gray-100 justify-center h-8 px-3 text-blue-500 hover:text-blue-900">
+                        blog
+                    </span></a>
+                <a href="/tags/github">
+                    <span
+                        class="duration-100 inline-flex py-2 leading-4 mr-2 mb-2 content-center bg-gray-100 justify-center h-8 px-3 text-blue-500 hover:text-blue-900">
+                        github
+                    </span></a>
+                <a href="/tags/hugo">
+                    <span
+                        class="duration-100 inline-flex py-2 leading-4 mr-2 mb-2 content-center bg-gray-100 justify-center h-8 px-3 text-blue-500 hover:text-blue-900">
+                        hugo
+                    </span></a>
+                <a href="/tags/%E9%9B%91%E8%A8%98">
+                    <span
+                        class="duration-100 inline-flex py-2 leading-4 mr-2 mb-2 content-center bg-gray-100 justify-center h-8 px-3 text-blue-500 hover:text-blue-900">
+                        雑記
+                    </span></a>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+            </div>
+        </div><footer class="bg-gray-800 text-white p-6">
+    
+    <div class="container mr-auto ml-auto">
+        <p>&copy; 2021 <a href="https://tantiveivnewhope.github.io" class="hover:text-gray-500">Tantive IV LABO Blog</a></p>
+        <p>Powered by <a href="https://gohugo.io/" class="hover:text-gray-500">Hugo</a>, Theme <a
+                href="https://github.com/opera7133/Blonde" class="hover:text-gray-500">Blonde</a>.</p>
+    </div>
+    <script src="/js/switch.js"></script>
+    
+    <script src="/js/content/20210306.js"></script>
+    
+</footer>
+</div>
+</body>
+
+</html>

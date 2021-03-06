@@ -6,14 +6,23 @@
     <description>Recent content in hugo on Tantive IV LABO Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Wed, 03 Mar 2021 22:30:11 +0900</lastBuildDate><atom:link href="https://tantiveivnewhope.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 Mar 2021 11:48:47 +0900</lastBuildDate><atom:link href="https://tantiveivnewhope.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Github&#43;hugoでブログ(2)gitインストールを解説してみる</title>
+      <link>https://tantiveivnewhope.github.io/postas/20210306/</link>
+      <pubDate>Sat, 06 Mar 2021 11:48:47 +0900</pubDate>
+      
+      <guid>https://tantiveivnewhope.github.io/postas/20210306/</guid>
+      <description>Github+hugoでブログ開設する流れ 別記事で解説したGithub+hugoでブログ開設する流れはこんな感じ。 Githubのアカウントを</description>
+    </item>
+    
     <item>
       <title>Github&#43;hugoでブログ(1)Githubアカウント取得を解説してみる</title>
       <link>https://tantiveivnewhope.github.io/postas/20210304/</link>
-      <pubDate>Wed, 03 Mar 2021 22:30:11 +0900</pubDate>
+      <pubDate>Thu, 04 Mar 2021 22:30:11 +0900</pubDate>
       
       <guid>https://tantiveivnewhope.github.io/postas/20210304/</guid>
-      <description>Githubアカウント取得方法 今回はGithubのアカウント取得方法を解説してみます。 前提条件 OS：Windows10 Home ブラウザ：Chrom</description>
+      <description>Github+hugoでブログ開設する流れ 別記事で解説したGithub+hugoでブログ開設する流れはこんな感じ。 Githubのアカウントを</description>
     </item>
     
     <item>
