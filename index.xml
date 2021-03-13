@@ -6,7 +6,16 @@
     <description>Recent content on Tantive IV LABO Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sat, 06 Mar 2021 11:48:47 +0900</lastBuildDate><atom:link href="https://tantiveivnewhope.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Mar 2021 11:17:00 +0900</lastBuildDate><atom:link href="https://tantiveivnewhope.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Github&#43;hugoでブログ(3)visual studio codeインストールを解説してみる</title>
+      <link>https://tantiveivnewhope.github.io/postas/20210313/</link>
+      <pubDate>Sat, 13 Mar 2021 11:17:00 +0900</pubDate>
+      
+      <guid>https://tantiveivnewhope.github.io/postas/20210313/</guid>
+      <description>Github+hugoでブログ開設する流れ 別記事で解説したGithub+hugoでブログ開設する流れはこんな感じ。 Githubのアカウントを</description>
+    </item>
+    
     <item>
       <title>Github&#43;hugoでブログ(2)gitインストールを解説してみる</title>
       <link>https://tantiveivnewhope.github.io/postas/20210306/</link>
