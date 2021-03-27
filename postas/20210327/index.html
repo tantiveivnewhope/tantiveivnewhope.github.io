@@ -11,7 +11,7 @@
   gtag('config', 'G-XM7CGD0BMQ');
 </script>
 
-<title>Tantive IV LABO Blog | Github&#43;hugoでブログ(1)Githubアカウント取得を解説してみる</title>
+<title>Tantive IV LABO Blog | Github&#43;hugoでブログ(5)hugoテーマインストールを解説してみる</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
     <meta name="description" content="Tantive IV LABO Blog">
@@ -25,7 +25,7 @@
     <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5" />
     <link rel="shortcut icon" href="/favicon/favicon.ico" />
     <meta name="theme-color" content="#ffffff">
-    <meta property="og:title" content="Tantive IV LABO Blog | Github&#43;hugoでブログ(1)Githubアカウント取得を解説してみる" />
+    <meta property="og:title" content="Tantive IV LABO Blog | Github&#43;hugoでブログ(5)hugoテーマインストールを解説してみる" />
     
     
         
@@ -39,7 +39,7 @@
     
     <link href="/css/content.css" rel="stylesheet" type="text/css">
     
-    <link href="/css/content/20210304.css" rel="stylesheet" type="text/css">
+    <link href="/css/content/20210327.css" rel="stylesheet" type="text/css">
     
     
 
@@ -48,25 +48,25 @@
 <meta name="description" content="Github&#43;hugoでブログ開設する流れ 別記事で解説したGithub&#43;hugoでブログ開設する流れはこんな感じ。 Githubのアカウントを">
 <meta property="og:site_name" content="Tantive IV LABO Blog">
 <meta property="og:description" content="Github&#43;hugoでブログ開設する流れ 別記事で解説したGithub&#43;hugoでブログ開設する流れはこんな感じ。 Githubのアカウントを">
-<meta property="og:url" content="https://tantiveivnewhope.github.io/postas/20210304/">
+<meta property="og:url" content="https://tantiveivnewhope.github.io/postas/20210327/">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="">
 
-<link rel="canonical" href="https://tantiveivnewhope.github.io/postas/20210304/">
+<link rel="canonical" href="https://tantiveivnewhope.github.io/postas/20210327/">
 
 <meta name="twitter:description" content="Github&#43;hugoでブログ開設する流れ 別記事で解説したGithub&#43;hugoでブログ開設する流れはこんな感じ。 Githubのアカウントを">
-<meta property="article:published_time" content="2021-03-04T22:30:11&#43;09:00">
-<meta property="article:updated_time" content="2021-03-04T22:30:11&#43;09:00">
+<meta property="article:published_time" content="2021-03-27T10:16:07&#43;09:00">
+<meta property="article:updated_time" content="2021-03-27T10:16:07&#43;09:00">
 
 
 
 
 
     
-<meta property="og:image" content="https://tantiveivnewhope.github.io/img/20210304/20210304_01.jpg">
-<meta property="og:image:url" content="https://tantiveivnewhope.github.io/img/20210304/20210304_01.jpg">
+<meta property="og:image" content="https://tantiveivnewhope.github.io/img/20210327/20210327_01.jpg">
+<meta property="og:image:url" content="https://tantiveivnewhope.github.io/img/20210327/20210327_01.jpg">
     
 
     
@@ -140,7 +140,7 @@
             <div class="lg:mx-5">
 <div class="grid grid-cols-3 gap-4">
     <div class="bg-white col-span-3 lg:col-span-2 p-5">
-        <h1 class="title text-4xl">Github&#43;hugoでブログ(1)Githubアカウント取得を解説してみる</h1>
+        <h1 class="title text-4xl">Github&#43;hugoでブログ(5)hugoテーマインストールを解説してみる</h1>
         <div class="tags-box">
             
             
@@ -162,79 +162,145 @@
             
         </div>
         <div class="title-border"></div>
-        <div class="content py-1"><img src="/img/20210304/20210304_01.jpg" class="post-top-img">
+        <div class="content py-1"><img src="/img/20210327/20210327_01.jpg" class="post-top-img">
 <div class="post-body">
   <h2>Github+hugoでブログ開設する流れ</h2>
   <p>別記事で解説したGithub+hugoでブログ開設する流れはこんな感じ。</p>
   <ol class="ol-flow">
-    <!-- <li>Githubのアカウントを取得<span class="font-awesome-style fa-here"></span></li> -->
-    <li><span class="vertical-middle">Githubのアカウントを取得</span><i class="far fa-hand-point-left fa-here"></i><span class="vertical-middle">今回はここ</span></li>
+    <li>Githubのアカウントを取得</li>
     <li>PCにgitをインストール</li>
     <li>PCにエディタをインストール</li>
     <li>PCにhugoをインストール</li>
-    <li>hugoのテーマを選んでPCにインストール</li>
+    <li><span class="vertical-middle">hugoのテーマを選んでPCにインストール</span><i class="far fa-hand-point-left fa-here"></i><span class="vertical-middle">今回はここ</span></li>
     <li>ローカルリポジトリとリモートリポジトリを作成</li>
     <li>リモートリポジトリをGithub Pagesに設定</li>
     <li>エディタで記事を編集し、hugoを使ってローカルリポジトリで記事作成</li>
     <li>作った記事をリモートリポジトリにpush</li>
   </ol>
-  <h2>Githubアカウント取得方法</h2>
+  <h2>hugoテーマインストール方法</h2>
   <br>
-  <p>今回はGithubのアカウント取得方法を解説してみます。</p>
+  <p>今回はPCへのhugoテーマのインストールを解説してみます。</p>
   <br>
   <h2>前提条件</h2>
   <br>
   <ul>
     <li>OS：Windows10 Home</li>
-    <li>ブラウザ：Chrome</li>
-    <li>時期：2021年3月4日頃。この手のUI(user interface)はコロコロ変わる可能性があるので、最新状況で確認して下さい</li>
   </ul>
-  <br>
   <h2>手順</h2>
-  <ol>
-    <li>
-      <p>Githubのページにアクセス！<p>
-      <a href="https://github.com/" target="_blank">Github.com</a>
-    </li>
-    <li>
-      <p>左上辺りの「Sign up」をクリック！</p>
-      <img src="/img/20210304/20210304_02.png" class="">
-    </li>
-    <li>
-      <p>
-      次のページで、ユーザー名、メールアドレス、パスワードを入力<br>
-      お知らせメールを送って欲しければEmail preferencesにチェックを入れる<br>
-      最後に「Veryfy」と書かれたボタンを押すと、パズルが出るので2回正解する<br>
-      ちなみにこの時は、「渦巻銀河はどれでしょう？」というものでした。<br>
-      パズルに正解すると、「Create account」のボタンが押せるようになるので押しましょう。
-      </p>
-      <img src="/img/20210304/20210304_03.png">
-    </li>
-    <li>
-      <p>
-      次のページで、主に仕事は何してるかとか、どのくらいプログラミング経験があるかとか、Githubを何に使うのかとか、何に興味があるか（言語、フレームワーク、業界）とかを聞いてくるので適当に答えて、「Complete setup」ボタンを押下。
-      </p>
-    </li>
-    <li>
-      <p>
-      そうすると、設定したメールアドレスに確認のメールが来ているはずなので、メールに記載されている「Verify email address」のボタンを押すと、ブラウザが立ち上がってログインできるようになります。
-      </p>
-    </li>
-    <li>
-      <p>
-      ログインしたら、おめでとう！アカウント取得完了です！
-      </p>
-    </li>
-  </ol>
-  <h2>終わりに</h2>
     <p>
-      どうでしょう。<br>
-      Githubのアカウント取得までは簡単だったのではないでしょうか。  
+      基本的には、
+      <ol>
+        <li>テーマを選ぶ</li>
+        <li>選んだテーマをダウンロードしてインストールする</li>
+      </ol>
+      だけです。
     </p>
-    <p>
-      次回から、PC側の各種インストールや設定を解説していきます。
-    </p>
-    <p class="post-may-the-force-be-with-you">May the Force be with you...</p>
+    <h2>
+      では、さっそく行ってみましょう！
+    </h2>
+    <ol>
+      <li>
+        テーマを選ぶ
+        <p>
+        テーマとは、要するにブログのフォーマットだと思ってください。
+        トップページやブログ本体のページ構成が定義されています。
+        すでにたくさんのテーマが存在するので、自分がこんな風に書きたいな、と思ったテーマをダウンロードして使用しましょう。
+        </p>
+        <p>
+            <a href="https://themes.gohugo.io/" target="_blank">公式ページ</a>にものすごくたくさんテーマが置いてあるので、お好みのものを探してみて下さい。<br>
+            こんな感じでズラっとリスト化されています。
+        </p>
+        <img src="/img/20210327/20210327_02.png" alt="テーマ一覧" class="screen_shot">
+        <div class="modal-box">
+            <i class="fas fa-times modal-box__close"></i>
+            <img src="/img/20210327/20210327_02.png" alt="テーマ一覧" class="screen_shot-modal">
+        </div>
+        <p>
+            画面左にはカテゴライズごとにリスト化されていますので、ここから探してみるのも良いでしょう。
+        </p>
+        <p>
+            気になったテーマがあれば、テーマ画像をクリックして個々の詳細なページに移動してみましょう。<br>
+            テーマにもよりますが、詳細ページにはだいたい「Download」、「Demo」、「Homepege」の3つのボタンがあります。<br>
+            「Demo」をクリックすると、そのテーマのトップページだけではなく、ブログ本体やその他ページ、動作など、テーマ全体の内容を確認することができます。
+        </p>
+        <img src="/img/20210327/20210327_03.png" alt="Demo" class="screen_shot">
+        <div class="modal-box">
+            <i class="fas fa-times modal-box__close"></i>
+            <img src="/img/20210327/20210327_03.png" alt="Demo" class="screen_shot-modal">
+        </div>
+        <p>
+            結構膨大な数があるので、気に入ったものが見つかるまでじっくり探してみて下さい！
+        </p>
+      </li>
+      <li>ダウンロード/インストールする
+        <p>
+            テーマの詳細画面で「Download」ボタンを押してダウンロードページに移動します。<br>
+        </p>
+        <img src="/img/20210327/20210327_04.png" alt="Demo" class="screen_shot">
+        <div class="modal-box">
+            <i class="fas fa-times modal-box__close"></i>
+            <img src="/img/20210327/20210327_04.png" alt="Demo" class="screen_shot-modal">
+        </div>
+        <p>
+            ほとんどのテーマは「Download」ボタンを押すと、githubのページに移動します。
+        </p>
+        <p>
+            一番簡単なインストール方法はコードをダウンロードして解凍する方法です。<br>
+            しかしながらテーマにもよりますが、ページの下の方を見ると、Quick Startedだとか、Installというようなお題でインストール方法が記載されている場合があります。<br>
+            その場合は、記載されている方法でインストールすることをお勧めします。<br>
+            筆者の場合、「Blonde」というテーマを使用していているのですが、最初単純にコードをダウンロードして解凍したところ、静的ページを作成する段階でエラーが出まくり、らちが明かないので素直にインストールし直しました。<br>
+            インストール方法はテーマによって違ってくるので、良く読んでみて下さい。
+        </p>
+      </li>
+      <li>
+        単純にコードをダウンロードして解凍する場合
+        <p>
+            githubのページ上部に「Code」のボタンがあるのでクリック。<br>
+            さらに、出てきたメニューから「Download ZIP」を選択すると、コードファイルのダウンロードが開始されます。
+        </p>
+        <img src="/img/20210327/20210327_05.png" alt="Demo" class="screen_shot">
+        <div class="modal-box">
+            <i class="fas fa-times modal-box__close"></i>
+            <img src="/img/20210327/20210327_05.png" alt="Demo" class="screen_shot-modal">
+        </div>
+        <p>
+            ダウンロードしたファイルを解凍し、前回hugoコマンドで作成したサイトのフォルダ「themes」の下に、解凍したフォルダごとマルっと移動させます。<br>
+            移動後のフォルダ構成のイメージはこんな感じです。<br>
+            例えば作成したサイトのフォルダが、c:\hugoだとすると、<br>
+            c:\hugo\themes\hugo-coder-master\<br>
+            「hugo-coder-master」の箇所はテーマによって変わります。<br>
+            また、「hugo-coder-master」の箇所は好きなフォルダ名に変更しても良いみたいです。（未検証）
+        </p>
+      </li>
+      <li>
+        最後に動作確認
+        <p>
+            これでインストール自体は完了です。<br>
+            動作確認しておきましょう。
+        </p>
+        <p>
+           コマンドプロンプトでhugoのフォルダに移動して、hugoコマンドでサーバを起動させます。 <br>
+           (上の例では、c:\hugoに移動します)
+        </p>
+        <div class="cmd">
+            hugo server
+        </div>
+        <p>
+            すると、サーバが起動し、
+            <div class="cmd">
+                Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)<br>
+            </div>
+            みたいに表示されますので、ブラウザでhttp://localhost:1313/にアクセスします。<br>
+            うまくインストールされていれば、テーマが準備してくれているサンプル画面が表示されるはずです。
+        </p>
+      </li>
+    </ol>
+  <h2>最後に</h2>
+  <p>
+    以上でhugoテーマのインストールは完了です。<br>
+    次回はリポジトリの設定をしていきます<br>
+  </p>
+  <p class="post-may-the-force-be-with-you">May the Force be with you...</p>
 </div></div>
     </div>
     <div class="hidden lg:block lg:col-span-1">
@@ -294,6 +360,8 @@
                 href="https://github.com/opera7133/Blonde" class="hover:text-gray-500">Blonde</a>.</p>
     </div>
     <script src="/js/switch.js"></script>
+    
+    <script src="/js/content/20210327.js"></script>
     
 </footer>
 </div>
